@@ -1,5 +1,5 @@
 ---
-title: jenkins安装
+title: Jenkins-安装
 date: 2022-07-05 23:10:32
 tags: 
   - Jenkins
