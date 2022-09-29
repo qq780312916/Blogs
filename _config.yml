@@ -11,10 +11,24 @@ author: xiaowangc
 language: zh-CN
 timezone: ''
 
+baidusitemap:
+  path: baidusitemap.xml
+
+algolia:
+  appId: "2PSN26NDSR"
+  apiKey: "0180b35a83af10a575bd07919c17489e"
+  adminApiKey: "60b1a2dc6ea79a79f02116ad8fed6704"
+  chunkSize: 5000
+  indexName: "hexo"
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://www.xiaowangc.com
-permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:day/:title/
+permalink: archives/:abbrlink.html
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -101,6 +115,11 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+
+#plugins:
+# - hexo-algoliasearch
+
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

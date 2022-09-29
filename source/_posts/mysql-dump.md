@@ -1,11 +1,12 @@
 ---
 title: mysqldump备份命令
-date: 2022-08-25 04:48:14
-tags: 
+tags:
   - mysql
 cover: img/fengmian/mysql.jpg
-categories: 
+categories:
   - mysql
+abbrlink: fa9c6891
+date: 2022-08-25 04:48:14
 ---
 # MySQL备份命令
 

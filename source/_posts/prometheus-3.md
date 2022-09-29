@@ -1,11 +1,12 @@
 ---
 title: Prometheus-Alertmanager
-date: 2022-06-23 13:24:11
-tags: 
+tags:
   - Prometheus
   - 监控
 categories: 监控
 cover: img/fengmian/Prometheus.jpg
+abbrlink: 446ae31b
+date: 2022-06-23 13:24:11
 ---
 # Alertmanager
 

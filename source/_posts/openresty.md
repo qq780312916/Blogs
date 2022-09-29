@@ -1,12 +1,13 @@
 ---
 title: OpenResty
-date: 2022-07-18 00:27:20
-tags: 
+tags:
   - openresty
   - nginx
-categories: 
+categories:
   - nginx
 cover: img/fengmian/openresty.png
+abbrlink: da147c79
+date: 2022-07-18 00:27:20
 ---
 # OpenResty简介
 

@@ -1,9 +1,10 @@
 ---
 title: LVS
-date: 2022-04-02 02:27:38
 tags: 负载均衡
 cover: img/fengmian/lvs.png
 categories: 负载均衡
+abbrlink: 9842572a
+date: 2022-04-02 02:27:38
 ---
 # LVS概念
 

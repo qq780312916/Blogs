@@ -1,11 +1,12 @@
 ---
 title: Prometheus-基础
-date: 2022-06-20 12:24:11
-tags: 
+tags:
   - Prometheus
   - 监控
 categories: 监控
 cover: img/fengmian/Prometheus.jpg
+abbrlink: b87e9ddb
+date: 2022-06-20 12:24:11
 ---
 # Prometheus
 

@@ -1,11 +1,12 @@
 ---
 title: Jenkins-安装
-date: 2022-07-05 23:10:32
-tags: 
+tags:
   - Jenkins
   - ci&cd
 cover: img/fengmian/jenkins.jpg
 categories: Jenkins
+abbrlink: 705f63c3
+date: 2022-07-05 23:10:32
 ---
 # 概述
 

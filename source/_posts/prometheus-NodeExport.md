@@ -1,11 +1,12 @@
 ---
 title: Prometheus-NodeExport
-date: 2022-06-21 12:24:11
-tags: 
+tags:
   - Prometheus
   - 监控
 categories: 监控
 cover: img/fengmian/Prometheus.jpg
+abbrlink: dc8c870
+date: 2022-06-21 12:24:11
 ---
 # node_exporter安装
 

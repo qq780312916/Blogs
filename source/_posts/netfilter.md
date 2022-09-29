@@ -1,12 +1,13 @@
 ---
 title: NetFilter/IPtables
-date: 2022-08-26 10:26:32
-tags: 
+tags:
   - iptables
   - 防火墙
-categories: 
-  - 防火墙
+categories:
+  - 安全
 cover: img/fengmian/fhq.jpeg
+abbrlink: 9fdd5e2e
+date: 2022-08-26 10:26:32
 ---
 # 概念
 

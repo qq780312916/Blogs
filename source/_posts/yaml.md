@@ -1,9 +1,11 @@
 ---
 title: yaml语法
-date: 2022-07-12 05:40:54
 tags: yaml
-cover: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F52%2F33%2F5816b34acabdc_610.jpg&refer=http%3A%2F%2Fpic.51yuansu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1660167772&t=6fa1255fe1b74a3cef0ccefb6d3be285
+cover: >-
+  https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F52%2F33%2F5816b34acabdc_610.jpg&refer=http%3A%2F%2Fpic.51yuansu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1660167772&t=6fa1255fe1b74a3cef0ccefb6d3be285
 categories: YAML
+abbrlink: f0b5a6ea
+date: 2022-07-12 05:40:54
 ---
 # 概念
 

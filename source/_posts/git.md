@@ -1,8 +1,9 @@
 ---
 title: Git分布式版本控制
-date: 2022-07-04 23:11:31
 tags: Git
 cover: img/fengmian/git.png
+abbrlink: a13195e8
+date: 2022-07-04 23:11:31
 ---
 # Git概述
 

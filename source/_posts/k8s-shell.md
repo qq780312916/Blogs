@@ -1,10 +1,11 @@
 ---
 title: k8s-shell
-date: 2022-04-17 16:28
+date: '2022-04-17 16:28'
 tags:
   - kubernetes
 categories: Kubernetes
 cover: img/fengmian/k8s.jpeg
+abbrlink: 8b15daa1
 ---
 ## 脚本
 

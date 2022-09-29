@@ -1,9 +1,10 @@
 ---
 title: ssh免密
-date: 2021-05-16 10:00
+date: '2021-05-16 10:00'
 tags: ssh免密
 cover: img/fengmian/ssh.png
 categories: openssh
+abbrlink: '17703002'
 ---
 # 记一次ssh免密登录
 

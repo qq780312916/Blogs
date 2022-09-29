@@ -1,10 +1,11 @@
 ---
 title: Nginx基础
-date: 2021-05-08 01:34:16
 tags: nginx
 cover: img/fengmian/nginx.png
-categories: 
+categories:
   - nginx
+abbrlink: a7bddb95
+date: 2021-05-08 01:34:16
 ---
 
 

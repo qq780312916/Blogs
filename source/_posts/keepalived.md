@@ -1,9 +1,10 @@
 ---
 title: keepalived
-date: 2022-04-02 03:04:02
 tags: 负载均衡
 cover: img/fengmian/keepalive.png
 categories: 负载均衡
+abbrlink: 7377fd95
+date: 2022-04-02 03:04:02
 ---
 # Keepalived概念
 

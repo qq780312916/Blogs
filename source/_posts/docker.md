@@ -1,9 +1,10 @@
 ---
 title: Docker基础
-date: 2022-04-01 23:10
+date: '2022-04-01 23:10'
 tags: Docker
 cover: img/fengmian/docker.jpeg
 categories: 容器
+abbrlink: 1d9fbb6a
 ---
 # Docker学习
 

@@ -1,11 +1,12 @@
 ---
 title: Prometheus-查询
-date: 2022-06-22 12:24:11
-tags: 
+tags:
   - Prometheus
   - 监控
 categories: 监控
 cover: img/fengmian/Prometheus.jpg
+abbrlink: 762f83eb
+date: 2022-06-22 12:24:11
 ---
 # 度量类型
 
