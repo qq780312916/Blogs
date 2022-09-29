@@ -3,23 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 尤妤.
+title: 尤妤
 subtitle: ''
-description: ''
-keywords:
-author: xiaowangc
+description: '尤妤'
+keywords: 尤妤,xiaowangc,小王的博客,小王
+author: 尤妤
 language: zh-CN
 timezone: ''
 
 baidusitemap:
   path: baidusitemap.xml
-
-algolia:
-  appId: "2PSN26NDSR"
-  apiKey: "0180b35a83af10a575bd07919c17489e"
-  adminApiKey: "60b1a2dc6ea79a79f02116ad8fed6704"
-  chunkSize: 5000
-  indexName: "hexo"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
