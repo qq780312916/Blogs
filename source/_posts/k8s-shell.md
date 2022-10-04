@@ -1,5 +1,5 @@
 ---
-title: k8s-shell
+title: k8s安装1.23.6脚本
 date: '2022-04-17 16:28'
 tags:
   - kubernetes
@@ -9,7 +9,7 @@ abbrlink: 8b15daa1
 ---
 ## 脚本
 
-适用于小于1.24版本
+适用于1.23.6版本
 
 ```shell
 #!/bin/bash
@@ -83,7 +83,7 @@ sleep 2
 echo "设置Docker开机自启并启动Docker..."
 echo "安装K8S组件..."
 sleep 2
-dnf -y install kubelet kubeadm kubectl
+dnf -y install kubelet-1.23.6 kubeadm-1.23.6 kubectl-1.23.6
 echo "设置Kubelet自启..."
 sleep 2
 systemctl enable kubelet
@@ -101,7 +101,7 @@ case $input in
         		echo "开始初始化集群..."
                 sleep 2
                 echo "此过程可能需要几分钟请耐心等待..."
-                kubeadm init --apiserver-advertise-address=$IP --pod-network-cidr=$PODIP --service-cidr=$SRVIP --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers > /root/.k8s.info
+                kubeadm init --apiserver-advertise-address=$IP --pod-network-cidr=$PODIP --service-cidr=$SRVIP --image-repository=registry.cn-hangzhou.aliyuncs.com/ --kubernetes-version 1.23.6 google_containers > /root/.k8s.info
                 export KUBECONFIG=/etc/kubernetes/admin.conf
                 echo "请在客户端安装环境后输入如下命令加入集群！"
                 echo "=================================="
