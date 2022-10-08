@@ -100,6 +100,11 @@
           "link": "https://developer.aliyun.com/mirror/",
           "avatar": "",
           "descr": "全面稳定的系统镜像服务"
+        },{
+          "name": "Redis开源连接工具",
+          "link": "https://github.com/qishibo/AnotherRedisDesktopManager",
+          "avatar": "",
+          "descr": "一个更快，更好，更稳定的redis桌面管理器[GUI客户端]，与Linux，Windows，Mac兼容。更重要的是，它在加载大量密钥时不会崩溃。"
         }
       ]
     }
