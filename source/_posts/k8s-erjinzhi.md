@@ -93,6 +93,7 @@ EOF
 ## 安装配置Docker
 
 ```shell
+[root@master ~]# curl https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo -O /etc/yum.repos.d/docker-ce.repo
 [root@master ~]# dnf -y install docker-ce --allowerasing
 [root@master ~]# systemctl enable --now docker
 [root@master ~]# tee > /etc/docker/daemon.json << EOF
@@ -421,7 +422,8 @@ WantedBy=multi-user.target
 ### 创建Kubernetes Ca
 
 ```shell
-[root@master ~]# mkdir /etc/kubernetes
+[root@master ~]#
+[root@master ~]# cd /etc/kubernetes/
 [root@master kubernetes]# cat ca.cnf
 [ v3_ca ]
 keyUsage = critical, keyCertSign, digitalSignature, keyEncipherment
@@ -623,7 +625,7 @@ extendedKeyUsage = clientAuth
 basicConstraints = critical, CA:FALSE
 authorityKeyIdentifier = keyid,issuer
 [root@master kubernetes]# openssl req -new -newkey rsa:2048 -keyout controller-manager.key -out controller-manager.csr -nodes -subj '/CN=system:kube-controller-manager'
-[root@master kubernetes]#  openssl x509 -req -sha256 -days 36500 -extfile controller-manager.cnf -extensions v3_req -in controller-manager.csr -CA ca.crt -CAkey ca.key -out controller-manager.crt -CAcreateserial
+[root@master kubernetes]# openssl x509 -req -sha256 -days 36500 -extfile controller-manager.cnf -extensions v3_req -in controller-manager.csr -CA ca.crt -CAkey ca.key -out controller-manager.crt -CAcreateserial
 [root@master kubernetes]# ls controller-manager*
 controller-manager.cnf  controller-manager.crt  controller-manager.csr  controller-manager.key
 ```
