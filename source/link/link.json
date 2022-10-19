@@ -105,6 +105,11 @@
           "link": "https://github.com/qishibo/AnotherRedisDesktopManager",
           "avatar": "",
           "descr": "一个更快，更好，更稳定的redis桌面管理器[GUI客户端]，与Linux，Windows，Mac兼容。更重要的是，它在加载大量密钥时不会崩溃。"
+        },{
+          "name": "压力测试工具",
+          "link": "https://github.com/baidu/dperf",
+          "avatar": "",
+          "descr": "一款开源的四层负载均衡压力测试仪"
         }
       ]
     }
