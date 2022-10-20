@@ -760,7 +760,6 @@ basicConstraints = critical,CA:true
 subjectKeyIdentifier = hash
 subjectAltName = DNS:etcd-ca
 ==============================================================
-openssl req -new -newkey rsa:2048 -keyout etcd-ca.key -out etcd-ca.csr -nodes -subj '/CN=etcd-ca'
 [root@master etcd]# openssl req -new -newkey rsa:2048 -keyout etcd-ca.key -out etcd-ca.csr -nodes -subj '/CN=etcd-ca'
 Generating a RSA private key
 .........+++++
