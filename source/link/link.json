@@ -4,7 +4,7 @@
       "class_desc": "那些人，那些事",
       "link_list": [
         {
-          "name": "尤妤.",
+          "name": "尤妤",
           "link": "https://xiaowangc.com",
           "avatar": "https://xiaowangc.com/img/touxiang.jpg",
           "descr": "我想我会一直孤单."
@@ -66,8 +66,20 @@
         {
           "name": "fcant",
           "link": "https://www.yuque.com/fcant",
-          "avatar": "https://cdn.nlark.com/yuque/0/2019/jpeg/anonymous/1562114802935-504aca79-85ec-479f-a23e-b5a68e3899ad.jpeg?x-oss-process=image%2Fresize%2Cm_fill%2Cw_320%2Ch_320%2Fformat%2Cpng",
+          "avatar": "https://cdn.nlark.com/yuque/0/2019/jpeg/anonymous/1562114802935-504aca79-85ec-479f-a23e-b5a68e3899ad.jpeg?x-oss-process=image%2Fresize%2Cm_fill%2Cw_328%2Ch_328%2Fformat%2Cpng",
           "descr": "Hello World"
+        },
+        {
+          "name": "皓~的博客",
+          "link": "http://www.zhanghaobk.com/",
+          "avatar": "/img/go.jpg",
+          "descr": "你日渐平庸，甘于平庸，将继续平庸。"
+        },
+        {
+          "name": "不念博客",
+          "link": "https://www.bunian.cn",
+          "avatar": "https://www.bunian.cn/wp-content/uploads/2021/11/bn-2.png",
+          "descr": "专注Linux运维技术"
         }
       ]
     },
@@ -98,7 +110,7 @@
         },{
           "name": "阿里云镜像站",
           "link": "https://developer.aliyun.com/mirror/",
-          "avatar": "",
+          "avatar": "https://img.alicdn.com/tfs/TB13DzOjXP7gK0jSZFjXXc5aXXa-212-48.png",
           "descr": "全面稳定的系统镜像服务"
         },{
           "name": "Redis开源连接工具",

@@ -2,7 +2,11 @@
 title: gitlab更改分支克隆中的URL地址
 abbrlink: d46e7f9b
 date: 2022-10-21 18:33:31
+cover: img/fengmian/gitlab.jpeg
+categories: Gitlab
 tags:
+  - Gitlab
+  - Git
 ---
 ```shell
 [root@xiaowangc ~]# vi /opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml

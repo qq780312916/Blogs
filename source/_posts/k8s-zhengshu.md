@@ -2,6 +2,7 @@
 title: K8S证书分析
 tags:
   - kubernetes
+  - OpenSSL
 categories: Kubernetes
 cover: img/fengmian/k8s.jpeg
 abbrlink: fd5f7d86
