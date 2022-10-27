@@ -10,6 +10,7 @@ cover: img/fengmian/linux.png
 # 引导过程
 
 开机自检(BISO初始化以及自检)------>MBR引导------>GRUB菜单------>加载内核Kernel------>init进程初始化
+![boot](boot.png)
 
 1. 开机自检
 
