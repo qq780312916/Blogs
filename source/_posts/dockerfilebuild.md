@@ -58,15 +58,17 @@ RUN wget https://nginx.org/download/nginx-1.22.1.tar.gz && \
     make && make install && cd /lnmp/ && rm -rf nginx-1.22.1 && \
     chown -R nginx.nginx nginx
 
-ADD cmake-3.25.0-rc3-linux-x86_64.tar.gz /root/
-
-RUN wget --no-check-certificate https://libzip.org/download/libzip-1.9.2.tar.gz && \
+RUN wget --no-check-certificate https://vpn.xiaowangc.com/cmake-3.25.0-rc3-linux-x86_64.tar.gz && \
+    tar xf cmake-3.25.0-rc3-linux-x86_64.tar.gz && rm -rf cmake-3.25.0-rc3-linux-x86_64.tar.gz && \
+    mv cmake-3.25.0-rc3-linux-x86_64 cmake && \
+    wget --no-check-certificate https://libzip.org/download/libzip-1.9.2.tar.gz && \
     tar xf libzip-1.9.2.tar.gz && \
     cd libzip-1.9.2 && \
     mkdir build && cd build && \
-    /root/cmake-3.25.0-rc3-linux-x86_64/bin/cmake .. && \
+    /lnmp/cmake/bin/cmake .. && \
     make && make install && \
-    cd ../../ && rm -rf libzip-1.9.2 libzip-1.9.2.tar.gz
+    cd ../../ && rm -rf libzip-1.9.2 libzip-1.9.2.tar.gz && \
+    rm -rf cmake
 
 ENV PKG_CONFIG_PATH /usr/local/lib64/pkgconfig
 
@@ -114,12 +116,15 @@ RUN cd /lnmp && wget https://www.php.net/distributions/php-7.4.33.tar.gz && \
 
 COPY nginx.conf /lnmp/nginx/conf/nginx.conf
 
-RUN wget https://downloads.mysql.com/archives/get/p/23/file/mysql-boost-5.7.39.tar.gz && \
+RUN wget --no-check-certificate https://vpn.xiaowangc.com/cmake-3.25.0-rc3-linux-x86_64.tar.gz && \
+    tar xf cmake-3.25.0-rc3-linux-x86_64.tar.gz && rm -rf cmake-3.25.0-rc3-linux-x86_64.tar.gz && \
+    mv cmake-3.25.0-rc3-linux-x86_64 cmake && \
+    wget https://downloads.mysql.com/archives/get/p/23/file/mysql-boost-5.7.39.tar.gz && \
     tar xf mysql-boost-5.7.39.tar.gz && \
     rm -rf mysql-boost-5.7.39.tar.gz && \
     cd mysql-5.7.39 && \
     useradd mysql && \
-    /root/cmake-3.25.0-rc3-linux-x86_64/bin/cmake \
+    /lnmp/cmake/bin/cmake \
     -DCMAKE_INSTALL_PREFIX=/lnmp/mysql \
     -DMYSQL_DATADIR=/var/lib/mysql \
     -DMYSQL_UNIX_ADDR=/var/lib/mysql/mysql.sock \
@@ -131,7 +136,8 @@ RUN wget https://downloads.mysql.com/archives/get/p/23/file/mysql-boost-5.7.39.t
     -DDEFAULT_COLLATION=utf8mb4_unicode_ci \
     -DWITH_BOOST=/lnmp/mysql-5.7.39/boost/boost_1_59_0 && \
     make && make install && cd .. && rm -rf mysql-5.7.39 && \
-    mkdir /var/lib/mysql && chown -R mysql.mysql /var/lib/mysql
+    mkdir /var/lib/mysql && chown -R mysql.mysql /var/lib/mysql && \
+    cd /lnmp && rm -rf cmake
 
 ENV PATH $PATH:/lnmp/nginx/sbin:/lnmp/php/sbin:/lnmp/mysql/bin:/lnmp/mysql/support-files
 

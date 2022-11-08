@@ -1,5 +1,5 @@
 ---
-title: [Gitlab]AWT is not properly configured on this server.
+title: AWT is not properly configured on this server.
 abbrlink: 4d672e21
 date: 2022-11-08 10:42:03
 cover: img/fengmian/gitlab.jpeg
@@ -7,6 +7,7 @@ categories: Gitlab
 tags:
   - Gitlab
 ---
+
 `错误`：AWT is not properly configured on this server.
 ```shell
 yum -y install fontconfig
