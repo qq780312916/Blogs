@@ -463,6 +463,11 @@ mysqladmin -u root -p flush-logs
 
   ![image-20221013021822328](image-20221013021822328.png)
 
+# 允许Root从远程登录
+```shell
+update mysql.user set Host='%' where HOST='localhost' and User='root';
+flush privileges;
+```
   
 
 
