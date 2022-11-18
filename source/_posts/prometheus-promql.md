@@ -1063,6 +1063,3 @@ USE方法全称"Utilization Saturation and Errors Method"，主要用于分析�
 通过对资源以上指标持续观察，通过以下流程可以知道用户识别资源瓶颈：
 
 ![识别资源瓶颈](USEMethod.png)
-
-
-`文章转载于`：https://github.com/yunlzheng/prometheus-book
