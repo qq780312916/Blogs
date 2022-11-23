@@ -280,7 +280,7 @@ app02   1/1     Running   0          4m13s   172.11.196.137   node01   <none>   
    spec:
      podSelector: {}
      policyTypes:
-     - Ingress
+       - Ingress
      ingress:
        - from:
            - namespaceSelector:

@@ -13,7 +13,6 @@ type: "about"
 
 <i class="fa-solid fa-graduation-cap"></i> 院校专业
 
-- 院校： 一个普普通通的专科生(我相信这只是暂时的)
 - 专业： 计算机网络技术
 
 <i class="fa-sharp fa-solid fa-award"></i> 获奖情况

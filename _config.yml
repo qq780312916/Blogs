@@ -4,12 +4,12 @@
 
 # Site
 title: 尤妤
-subtitle: ''
-description: ''
+subtitle: 欢迎来到尤妤的博客(xiaowangc)
+description: 欢迎来到尤妤的博客
 keywords: 尤妤,尤妤的博客,xiaowangc的博客,xiaowangc,小王的博客,小王,小王博客
 author: 尤妤
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 baidusitemap:
   path: baidusitemap.xml
