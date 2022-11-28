@@ -28,16 +28,36 @@ type: "about"
 
 <table frame=void>
 <tr style=" text-align: center" frame=void>
-<td><img src=https://www.xiaowangc.com/img/cka.png></img></td>
-<td><img src=https://www.xiaowangc.com/img/rhce.png></td>
-<td><img src=https://www.xiaowangc.com/img/h3cse.png></td>
-<td><img src=https://www.xiaowangc.com/img/h3cse.png></td>
+<td>证书:</td>
+<td>CKA</td>
+<td>RHCE8</td>
+<td>H3CSE-RS</td>
+<td>H3CNE-RS</td>
+<td>H3CNE-Cloud</td>
 </tr>
 <tr style=" text-align: center">
-<td>CKA</td>
-<td>RHCE</td>
-<td>H3CSE-RS</td>
-<td>H3CNE-Cloud</td>
+<td>编号:</td>
+<td>LF-g48y8g7l59</td>
+<td>210-208-294</td>
+<td>622104R025328</td>
+<td>612012C003815</td>
+<td>6119120288220</td>
+</tr>
+<tr style=" text-align: center">
+<td>有效期:</td>
+<td>2024-05-24</td>
+<td>2024-12-01</td>
+<td>2024-04-19</td>
+<td>2023-12-04</td>
+<td>2024-04-19</td>
+</tr>
+<tr style=" text-align: center">
+<td>查询:</td>
+<td><a href="https://training.linuxfoundation.org/certification/verify/">Linux基金会(需科学上网)</a></td>
+<td><a href="https://rhtapps.redhat.com/verify/">红帽</a></td>
+<td><a href="https://www.h3c.com/CN/BizPortal/TrainingPartner/Tester/AP_Edu_SearchCertificate.aspx">H3C</a></td>
+<td><a href="https://www.h3c.com/CN/BizPortal/TrainingPartner/Tester/AP_Edu_SearchCertificate.aspx">H3C</a></td>
+<td><a href="https://www.h3c.com/CN/BizPortal/TrainingPartner/Tester/AP_Edu_SearchCertificate.aspx">H3C</a></td>
 </tr>
 </table>
 
