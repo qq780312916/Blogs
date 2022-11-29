@@ -102,7 +102,6 @@ User------RoleBinding-------------Role				# 名称空间资源
 User------RoleBinding-------------ClusterRole		# 名称空间资源(包含多个)
 授予对多个名称空间级别资源的权限(限制在多个名称空间中,不能对集群资源进行操作)
 User------ClusterRoleBinding------ClusterRole		# 集群资源
-跨所有名称空间的名称空间资源
 ```
 
 ## 主体
