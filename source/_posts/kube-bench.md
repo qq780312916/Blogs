@@ -8,7 +8,7 @@ tags:
   - 安全
   - Kube-Bench
 categories: Kubernetes
-cover: img/fengmian/kube-bench.png
+cover: img/fengmian/kubebench.png
 ---
 # Kube-Bench
 
