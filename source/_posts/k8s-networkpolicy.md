@@ -1,9 +1,11 @@
 ---
-title: k8s网络策略
+title: Kubernetes网络策略
 abbrlink: 5b1fc607
 date: 2022-11-19 02:41:31
 tags:
   - kubernetes
+  - 安全
+  - CKS
 categories: Kubernetes
 cover: img/fengmian/k8s.jpeg
 ---
