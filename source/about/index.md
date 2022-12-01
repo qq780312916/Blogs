@@ -71,6 +71,6 @@ type: "about"
 
 > <i class="fa-sharp fa-solid fa-calendar-days"></i> 2022-06-01 `正式`
 
-> `深圳某电子商务集团`
+> `深圳某某某电子商务集团`
 > 1. 负责公司运维体制建设，推进运维自动化、DevOps建设
 > 2. 负责 MySQL/PG等数据库 在 linux 环境以生产要求做容量和架构规划设计等
