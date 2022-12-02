@@ -9,7 +9,7 @@ tags:
   - 安全
   - 扫描工具
 categories: Kubernetes
-cover: img/fengmian/trivy.png
+cover: img/fengmian/trivy-logo.png
 ---
 # Trivy
 
